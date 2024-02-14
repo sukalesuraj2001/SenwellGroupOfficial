@@ -1,0 +1,37 @@
+
+<nav class="navbar navbar-expand-lg fixed-top" [class.navbar-scrolled]="isScrolled">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="senwellLogo" class="img-thumbnail">
+      </a>
+      <!-- <button  class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button> -->
+            <span (click)="toggleNavbar()" class="navbar-toggler-icon"><i  class="fa-solid fa-bars  fa-2xl" style="color: white;"></i></span>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"  [ngClass]="{ 'show': isNavbarOpen }">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="https://senwellsys.com/" target="_blank">Senwell Solutions</a>
+              </li> 
+               <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="https://senwellexports.com/" target="_blank">Senwell Exports</a>
+              </li> 
+               <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="https://isearch.co.in/" target="_blank">iSearch</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#" target="_blank">Senwell Fasteners</a>
+            </li>
+             <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="https://commoditymasters.co/home" target="_blank">Commodity Masters</a>
+            </li>
+             
+              
+              
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>

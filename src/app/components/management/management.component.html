@@ -1,0 +1,223 @@
+<section class="management  shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+    <div class="container management">
+        <div class="heading">
+            <h2 class="text-center" data-aos="fade-up" data-aos-duration="3000">BOARD MANAGEMENT</h2>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-4">
+                <div class="image mt-5  ">
+                    <img data-aos="fade-up" data-aos-anchor-placement="top-bottom" src="assets/img1.png"
+                        class="img-thumbnail" alt="...">
+                </div>
+                <div class="text mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h3>Jyoti Pawar</h3>
+                    <p> Founder & Director</p>
+                </div>
+                <div class="know-more d-flex mt-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="button">
+                        <div class="dropdown">
+
+                            <button class="btn" (click)="show(0)"><span><i class="fa-solid fa-plus fa-lg" style="color: white;"></i></span></button>
+
+
+
+                        </div>
+                    </div>
+                    <div class="para mx-4 mt-2">
+                        <p class="fw-medium" (click)="show(0)">Know More</p>
+                    </div>
+                </div>
+                <div class="container" id="notShow">
+                    <div class="row">
+                        <div class="col-md-12 " id="#menu-section1" *ngIf="isDropdownOpen[0]">
+                            <div class="button">
+                                <div class="dropdown text-center mt-3">
+                
+                                    <button class="btn" (click)="show(0)"><span><i class="fa-solid fa-xmark fa-lg" style="color: white;"></i></span></button>
+                
+                                </div>
+                            </div>
+                            <div class="menu">
+                
+                
+                                <h3>Jyoti Pawar</h3>
+                            
+                                <h5>Founder & Director</h5>
+                                <p>Senwell Group has evolved exponentially from its inception as Senwell Solutions
+                                    in 2020. Our growth has been nothing short of remarkable. Today, we proudly stand as a diversified
+                                    organization, offering a wide range of services far beyond our initial scope.
+                                    This transformation reflects our unwavering commitment to excellence, adaptability, and the
+                                    remarkable dedication of our team. It is the result of numerous successful projects, each a
+                                    testament to your expertise and determination, which has earned us the trust and respect of our
+                                    clients.
+                                    As we continue our journey forward, our core values of integrity, innovation, and excellence remain
+                                    our guiding principles. They have been the driving force behind our success and will continue to
+                                    steer us through future challenges and opportunities. we are poised for even greater achievements.
+                                    Let's continue pushing boundaries, embracing innovation, and scripting a future filled with
+                                    prosperity and success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="image mt-5">
+                    <img data-aos="fade-up" data-aos-anchor-placement="top-bottom" src="assets/img2.png"
+                        class="img-thumbnail" alt="...">
+                </div>
+                <div class="text mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h3>Anoop Mishra</h3>
+                    <p> Founder & Director</p>
+                </div>
+                <div class="know-more d-flex mt-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="button">
+                        <div class="dropdown">
+
+                            <button class="btn" (click)="show(1)"><span><i class="fa-solid fa-plus fa-lg" style="color: white;"></i></span> <a href="#menu-section1"></a></button>
+
+                        </div>
+                    </div>
+                    <div class="para mx-4 mt-2">
+                        <p class="fw-medium" (click)="show(1)">Know More</p>
+                    </div>
+                </div>
+                <div class="container" id="notShow">
+                    <div class="row">
+                        <div class="col-md-12 " *ngIf="isDropdownOpen[1]">
+                            <div class="button">
+                                <div class="dropdown text-center mt-3">
+                
+                                    <button class="btn" (click)="show(1)"><span><i class="fa-solid fa-xmark fa-lg" style="color: white;"></i></span></button>
+                
+                                </div>
+                            </div>
+                            <div class="menu">
+                                <h3>Anoop Mishra</h3>
+                                 
+                                <h5>Founder & Director</h5>
+                                <p>I'm thrilled to share a remarkable moment in the Senwell Group's journey. We embark on a new adventure, introducing Senwell Exports to the world. Our commitment to excellence has fueled our growth, and exporting our products is a natural progression. Senwell’s subsidaries isn't just about expanding our reach but also about showcasing Senwell's commitment to quality, sustainability, and innovation on a global stage. I'm grateful to our dedicated team for making this venture possible. Your hard work and expertise have brought us here.
+                                    Senwell aims to become a trusted global partner, offering the quality and reliability Senwell is known for. I invite you to join us on this exciting journey, as we continue to uphold our values and make our mark on the world stage.
+                                    Thank you for your unwavering support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image mt-5">
+                    <img data-aos="fade-up" data-aos-anchor-placement="top-bottom" src="assets/img3.png"
+                        class="img-thumbnail" alt="...">
+                </div>
+                <div class="text mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <h3>Rajendra Pawar</h3>
+                    <p>Co-Founder & Director</p>
+                </div>
+                <div class="know-more d-flex mt-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="button">
+                        <div class="dropdown">
+
+                            <button class="btn" (click)="show(2)"><span><i class="fa-solid fa-plus fa-lg" style="color: white;"></i></span></button>
+
+                        </div>
+                    </div>
+                    <div class="para mx-4 mt-2">
+                        <p class="fw-medium" (click)="show(2)">Know More</p>
+                    </div>
+                </div>
+                <div class="container" id="notShow">
+                    <div class="row">
+                        <div class="col-md-12 " *ngIf="isDropdownOpen[2]">
+                            <div class="button">
+                                <div class="dropdown text-center mt-3">
+                
+                                    <button class="btn" (click)="show(2)"><span><i class="fa-solid fa-xmark fa-lg" style="color: white;"></i></span></button>
+                
+                                </div>
+                            </div>
+                            <div class="menu">
+                                <h3>Rajendra Pawar</h3>
+                                <h5>Co-Founder & Director</h5>
+                                <p>From Senwell Solutions to Senwell Group, our journey has been extraordinary. What began as a software development vision has now evolved into a diversified conglomerate, including Senwell Solutions, Cronage, iSearch, Commodity Masters, and the latest addition, Senwell Exports. Senwell Solutions was our humble beginning, emphasizing innovation and excellence in software. Today, we've expanded our horizons with Cronage, iSearch, and Commodity Master, offering versatile solutions that cater to diverse needs.
+                                    Senwell marks our global ambitions. It's a testament to our dedication to exploring new frontiers and contributing to the international arena.
+                                    
+                                    As we look forward, we remain committed to evolving, innovating, and making a difference. Your unwavering support has been our driving force. Exciting prospects await us, and together, we'll continue to reach new heights.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<div class="container mt-5 menu-section shadow  rounded">
+    <div class="row">
+        <div class="col-md-12 " id="#menu-section1" *ngIf="isDropdownOpen[0]">
+            <div class="button">
+                <div class="dropdown text-center mt-3">
+
+                    <button class="btn" (click)="show(0)"><span><i class="fa-solid fa-xmark fa-lg" style="color: white;"></i></span></button>
+
+                </div>
+            </div>
+            <div class="menu">
+
+
+                <h3>Jyoti Pawar</h3>
+            
+                <h5>Founder & Director</h5>
+                <p>In just three years, Senwell Group has evolved exponentially from its inception as Senwell Solutions
+                    in 2020. Our growth has been nothing short of remarkable. Today, we proudly stand as a diversified
+                    organization, offering a wide range of services far beyond our initial scope.
+                    This transformation reflects our unwavering commitment to excellence, adaptability, and the
+                    remarkable dedication of our team. It is the result of numerous successful projects, each a
+                    testament to your expertise and determination, which has earned us the trust and respect of our
+                    clients.
+                    As we continue our journey forward, our core values of integrity, innovation, and excellence remain
+                    our guiding principles. They have been the driving force behind our success and will continue to
+                    steer us through future challenges and opportunities. we are poised for even greater achievements.
+                    Let's continue pushing boundaries, embracing innovation, and scripting a future filled with
+                    prosperity and success.</p>
+            </div>
+        </div>
+        <div class="col-md-12 " *ngIf="isDropdownOpen[1]">
+            <div class="button">
+                <div class="dropdown text-center mt-3">
+
+                    <button class="btn" (click)="show(1)"><span><i class="fa-solid fa-xmark fa-lg" style="color: white;"></i></span></button>
+
+                </div>
+            </div>
+            <div class="menu">
+                <h3>Anoop Mishra</h3>
+                 
+                <h5>Founder & Director</h5>
+                <p>I'm thrilled to share a remarkable moment in the Senwell Group's journey. We embark on a new adventure, introducing Senwell Exports to the world. Our commitment to excellence has fueled our growth, and exporting our products is a natural progression. Senwell’s subsidaries isn't just about expanding our reach but also about showcasing Senwell's commitment to quality, sustainability, and innovation on a global stage. I'm grateful to our dedicated team for making this venture possible. Your hard work and expertise have brought us here.
+                    Senwell aims to become a trusted global partner, offering the quality and reliability Senwell is known for. I invite you to join us on this exciting journey, as we continue to uphold our values and make our mark on the world stage.
+                    Thank you for your unwavering support.</p>
+            </div>
+        </div>
+        <div class="col-md-12 " *ngIf="isDropdownOpen[2]">
+            <div class="button">
+                <div class="dropdown text-center mt-3">
+
+                    <button class="btn" (click)="show(2)"><span><i class="fa-solid fa-xmark fa-lg" style="color: white;"></i></span></button>
+
+                </div>
+            </div>
+            <div class="menu">
+                <h3>Rajendra Pawar</h3>
+                <h5>Co-Founder & Director</h5>
+                <p>From Senwell Solutions to Senwell Group, our journey has been extraordinary. What began as a software development vision has now evolved into a diversified conglomerate, including Senwell Solutions, Cronage, iSearch, Commodity Masters, and the latest addition, Senwell Exports. Senwell Solutions was our humble beginning, emphasizing innovation and excellence in software. Today, we've expanded our horizons with Cronage, iSearch, and Commodity Master, offering versatile solutions that cater to diverse needs.
+                    Senwell marks our global ambitions. It's a testament to our dedication to exploring new frontiers and contributing to the international arena.
+                    
+                    As we look forward, we remain committed to evolving, innovating, and making a difference. Your unwavering support has been our driving force. Exciting prospects await us, and together, we'll continue to reach new heights.</p>
+            </div>
+        </div>
+    </div>
+</div>

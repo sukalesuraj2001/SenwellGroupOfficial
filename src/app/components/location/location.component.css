@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Cairo:wght@400;800&family=Cedarville+Cursive&family=Kanit:ital,wght@1,300&family=Raleway&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Cairo:wght@400;800&family=Cedarville+Cursive&family=Kanit:ital,wght@1,300&family=Poppins:ital,wght@1,200&family=Raleway&display=swap');
+
+.location-section {
+    margin-top: 5rem;
+    background-color: rgb(248, 248, 247);
+}
+
+
+h2 {
+
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 2rem; */
+    font-weight: 500;
+
+}
+
+
+p {
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+}
+
+
+@media (max-width: 991px) {
+    iframe {
+        width: 100%;
+    }
+
+}

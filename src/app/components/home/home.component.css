@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Cairo:wght@400;800&family=Cedarville+Cursive&family=Kanit:ital,wght@1,300&family=Raleway&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Cairo:wght@400;800&family=Cedarville+Cursive&family=Kanit:ital,wght@1,300&family=Poppins:ital,wght@1,200&family=Raleway&display=swap');
+
+
+
+
+
+
+/* Default styles */
+
+
+.home-section {
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+  
+  /* Media query for small devices */
+  @media (max-width: 767px) {
+    .home-section {
+        
+      height: auto; /* Adjust height for smaller devices */
+      overflow: visible; /* Show full video on smaller devices */
+    }
+    
+    video {
+      max-width: 100%; /* Ensure the video doesn't exceed the screen width on smaller devices */
+      height: auto;
+    }
+  }
+  
+  .image-container img{
+    
+  }
+
+/* company profile section start */
+
+.image-container img{
+    border: none !important;
+}
+
+.image-container img:hover{
+
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+#para{
+    display: block ;
+  }
+
+.corporate-responsibility img:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+@media (max-width: 991px) {
+
+
+    .home-section {
+      margin-top: 4.5rem;
+      }
+      #para{
+        display: none ;
+      }
+      
+}
+
+@media (max-width: 768px) {
+  #para{
+    display: block !important ;
+  }
+}
+
+
+h3{
+  
+font-family: 'Assistant', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-size: 2rem;
+font-weight: 500;
+
+}
+
+p{
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* crousel section :start */
+

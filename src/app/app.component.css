@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Cairo:wght@400;800&family=Cedarville+Cursive&family=Kanit:ital,wght@1,300&family=Raleway&display=swap');
+
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar-brand img {
+    max-height: 50px; 
+    width: auto;
+    background: none;
+    border: none !important;
+    animation: rotate infinite 5s linear; 
+}
+
+
+.navbar {
+    color: #ffffff; 
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+  }
+  
+  .navbar:not(.navbar-scrolled) .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar.navbar-scrolled {
+    background-color: #ffffff; 
+    color: #000000;
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  .navbar-scrolled .navbar-dark .navbar-toggler-icon {
+    background-color: #000000; 
+  }
+  .navbar-nav li a{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+  }
+  .navbar-nav li a:hover{
+    color: rgb(88, 83, 83);
+  }
+.navbar-toggler-icon{
+    display: none;
+}
+  
+  @media (max-width: 991px) {
+    .navbar-nav li a {
+      color: white !important;
+    }
+  
+    .navbar {
+      background-color: black;
+    }
+
+
+
+
+    .navbar-toggler-icon{
+        display: block;
+        margin-right: 5%;
+    }
+    .navbar:not(.navbar-scrolled) .navbar-nav .nav-link {
+        /* color: #ffffff; */
+      }
+      
+      .navbar.navbar-scrolled {
+        background-color: black; 
+        color: white;
+      }
+      
+      .navbar-dark .navbar-toggler-icon {
+        background-color: #ffffff;
+      }
+      
+      .navbar-scrolled .navbar-dark .navbar-toggler-icon {
+        background-color: #000000; 
+      }
+  }
+  
